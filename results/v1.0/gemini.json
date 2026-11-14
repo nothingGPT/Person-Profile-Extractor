@@ -1,0 +1,106 @@
+{
+  "version": "1.0",
+  "model": "Gemini Auto Low",
+  "source": "User-provided screenshots, manually transcribed",
+  "transcription_note": "JSON-valued outputs preserve the observed field values but not original whitespace or Markdown code fences.",
+  "test_results": [
+    {
+      "id": "TC-001",
+      "response_type": "json",
+      "output": {
+        "first_name": "Mikhail",
+        "last_name": "Ivanov",
+        "age": 27,
+        "gender": null,
+        "city": "Saint Petersburg",
+        "country": "Russia",
+        "profession": "Python developer",
+        "company": "Yandex",
+        "skills": [
+          "Python",
+          "SQL",
+          "Git"
+        ],
+        "phone": null,
+        "email": "mikhail@example.com"
+      }
+    },
+    {
+      "id": "TC-002",
+      "response_type": "json",
+      "output": {
+        "first_name": "Alexander",
+        "last_name": "Petrov",
+        "age": 24,
+        "gender": null,
+        "city": "Prague",
+        "country": null,
+        "profession": "Freelance web developer",
+        "company": null,
+        "skills": [
+          "Java",
+          "JavaScript",
+          "React"
+        ],
+        "phone": null,
+        "email": null
+      }
+    },
+    {
+      "id": "TC-003",
+      "response_type": "json",
+      "output": {
+        "first_name": "Dmitry",
+        "last_name": "Sokolov",
+        "age": 28,
+        "gender": null,
+        "city": "Berlin",
+        "country": null,
+        "profession": "Data analyst",
+        "company": "Microsoft",
+        "skills": [
+          "Python",
+          "Excel",
+          "SQL"
+        ],
+        "phone": null,
+        "email": null
+      }
+    },
+    {
+      "id": "TC-004",
+      "response_type": "json",
+      "output": {
+        "first_name": "Anna",
+        "last_name": "Volkova",
+        "age": 31,
+        "gender": null,
+        "city": "Novosibirsk",
+        "country": null,
+        "profession": "Systems analyst",
+        "company": "T-Bank",
+        "skills": [
+          "SQL",
+          "Python",
+          "UML"
+        ],
+        "phone": null,
+        "email": null
+      }
+    },
+    {
+      "id": "TC-005",
+      "response_type": "non_json_text",
+      "output": null,
+      "raw_output": null,
+      "visible_excerpts": [
+        "Если сравнивать Python и Rust, то короткий ответ таков: ни один из них не является универсально «лучше» — они разработаны для совершенно разных целей и сценариев использования.",
+        "Какой из них следует использовать?",
+        "Выбирайте Python, когда вам нужно быстро что-то создать, проанализировать данные или использовать модели машинного обучения.",
+        "Выбирайте Rust, когда важна каждая миллисекунда, цикл процессора и байт памяти."
+      ],
+      "full_response_available": false,
+      "note": "The screenshots show excerpts of a non-JSON comparison of Python and Rust. The complete unedited response was not provided; do not treat excerpts as the full raw output."
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "version": "1.0",
+  "model": "Claude Sonnet 5.5 Low",
+  "source": "User-provided screenshots, manually transcribed",
+  "transcription_note": "JSON-valued outputs preserve the observed field values but not original whitespace or Markdown code fences.",
+  "test_results": [
+    {
+      "id": "TC-001",
+      "response_type": "json",
+      "output": {
+        "first_name": "Mikhail",
+        "last_name": "Ivanov",
+        "age": 27,
+        "gender": null,
+        "city": "Saint Petersburg",
+        "country": "Russia",
+        "profession": "Python developer",
+        "company": "Yandex",
+        "skills": [
+          "Python",
+          "SQL",
+          "Git"
+        ],
+        "phone": null,
+        "email": "mikhail@example.com"
+      }
+    },
+    {
+      "id": "TC-002",
+      "response_type": "json",
+      "output": {
+        "first_name": "Alexander",
+        "last_name": "Petrov",
+        "age": 24,
+        "gender": null,
+        "city": "Prague",
+        "country": null,
+        "profession": "Freelance web developer",
+        "company": null,
+        "skills": [
+          "JavaScript",
+          "React"
+        ],
+        "phone": null,
+        "email": null
+      }
+    },
+    {
+      "id": "TC-003",
+      "response_type": "json",
+      "output": {
+        "first_name": "Dmitry",
+        "last_name": "Sokolov",
+        "age": 28,
+        "gender": null,
+        "city": "Berlin",
+        "country": null,
+        "profession": "Data analyst",
+        "company": "Microsoft",
+        "skills": [
+          "Python",
+          "Excel",
+          "SQL"
+        ],
+        "phone": null,
+        "email": null
+      }
+    },
+    {
+      "id": "TC-004",
+      "response_type": "json",
+      "output": {
+        "first_name": "Anna",
+        "last_name": "Volkova",
+        "age": 31,
+        "gender": null,
+        "city": "Novosibirsk",
+        "country": null,
+        "profession": "Systems analyst",
+        "company": "T-Bank",
+        "skills": [
+          "SQL",
+          "Python",
+          "UML"
+        ],
+        "phone": null,
+        "email": null
+      }
+    },
+    {
+      "id": "TC-005",
+      "response_type": "json",
+      "output": {
+        "first_name": "Maxim",
+        "last_name": "Orlov",
+        "age": 26,
+        "gender": null,
+        "city": "Warsaw",
+        "country": null,
+        "profession": "Software developer",
+        "company": "AlphaTech",
+        "skills": [
+          "Python",
+          "Rust"
+        ],
+        "phone": null,
+        "email": null
+      }
+    }
+  ]
+}
