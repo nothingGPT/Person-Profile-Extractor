@@ -114,7 +114,7 @@ Claude and ChatGPT returned JSON in all 5 test cases, but this doesn't mean all 
 
 ## Roadmap
 
--  [ ] **v1.0** - We developed the [prompt](prompts/v1.0.md), tested it on 3 LLMs (ChatGPT, Claude, and Gemini), and documented the results.
+-  [x] **v1.0** - We developed the [prompt](prompts/v1.0.md), tested it on 3 LLMs (ChatGPT, Claude, and Gemini), and documented the results.
 -  **Future improvements** - Addressing known issues and retesting the prompt.
 
 ---
