@@ -1,9 +1,9 @@
 # Person Profile Extractor
 
 Person Profile Extractor is a system that takes text about a person and extracts information into a JSON object.
-**Version**: 1.0
-**Language**: English
-**Status**: Experimental
+- **Version**: 1.0
+- **Language**: English
+- **Status**: Experimental
 
 ---
 ## Overview
